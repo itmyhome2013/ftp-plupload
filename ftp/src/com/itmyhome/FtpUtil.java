@@ -1,17 +1,18 @@
 package com.itmyhome;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.SocketException;
-import java.util.Date;
-
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPReply;
 
+/**
+ * FTP工具类
+ * 2019-05-22
+ * @author itmyhome
+ *
+ */
 public class FtpUtil {
 
 	public static String FTP_HOST = SystemConfig.getString("ftpHost"); // FTP 主机名

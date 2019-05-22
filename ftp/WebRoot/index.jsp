@@ -58,7 +58,7 @@
 	        dragdrop: true,
 	        views: {
 	            list: true,
-	            thumbs: true, // 试图显示
+	            thumbs: true, // 视图显示
 	            active: 'thumbs'
 	        },
 	        flash_swf_url : '<%=path%>/plupload-2.3.6/js/Moxie.swf',

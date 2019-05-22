@@ -12,6 +12,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.struts2.ServletActionContext;
 
 
+/**
+ * 文件上传类
+ * 2019-05-22
+ * @author itmyhome
+ *
+ */
 public class FileAction {
 	private File[] file;              //文件  
     private String[] fileFileName;    //文件名   
@@ -131,64 +137,44 @@ public class FileAction {
 		}
 		return null;
 	}
-	/**
-	 * @return the file
-	 */
+
 	public File[] getFile() {
 		return file;
 	}
-	/**
-	 * @param file the file to set
-	 */
+
 	public void setFile(File[] file) {
 		this.file = file;
 	}
-	/**
-	 * @return the fileFileName
-	 */
+	
 	public String[] getFileFileName() {
 		return fileFileName;
 	}
-	/**
-	 * @param fileFileName the fileFileName to set
-	 */
+
 	public void setFileFileName(String[] fileFileName) {
 		this.fileFileName = fileFileName;
 	}
 	
-	/**
-	 * @return the filePath
-	 */
+
 	public String[] getFilePath() {
 		return filePath;
 	}
-	/**
-	 * @param filePath the filePath to set
-	 */
+
 	public void setFilePath(String[] filePath) {
 		this.filePath = filePath;
 	}
-	/**
-	 * @return the inputStream
-	 */
+
 	public InputStream getInputStream() {
 		return inputStream;
 	}
-	/**
-	 * @param inputStream the inputStream to set
-	 */
+
 	public void setInputStream(InputStream inputStream) {
 		this.inputStream = inputStream;
 	}
-	/**
-	 * @return the downloadFilePath
-	 */
+
 	public String getDownloadFilePath() {
 		return downloadFilePath;
 	}
-	/**
-	 * @param downloadFilePath the downloadFilePath to set
-	 */
+	
 	public void setDownloadFilePath(String downloadFilePath) {
 		this.downloadFilePath = downloadFilePath;
 	}
